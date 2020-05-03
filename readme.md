@@ -1,1 +1,1 @@
-# Avrage grade calculator for Ladok
+# Average grade calculator for Ladok
