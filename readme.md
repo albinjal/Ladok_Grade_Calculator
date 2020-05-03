@@ -1,0 +1,1 @@
+# Avrage grade calculator for Ladok

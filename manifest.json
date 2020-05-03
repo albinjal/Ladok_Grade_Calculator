@@ -1,0 +1,17 @@
+{
+  "name": "Medelbetyg till Ladok",
+  "version": "1.0.0",
+  "description": "Lägger till att du kan se ditt medelbetyg i Ladok.",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["*://www.student.ladok.se/student*"],
+      "js": ["ladok_grades.js"]
+    }
+  ],
+  "permissions": ["tabs"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "icons": { "16": "icon16.png", "48": "icon48.png", "128": "icon128.png" }
+}
